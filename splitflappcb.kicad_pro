@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -115,11 +116,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -127,12 +128,12 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -454,7 +455,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -464,26 +465,60 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.127,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "12V",
+        "name": "12v",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 2.5,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "stepper",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -492,17 +527,30 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "3v3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "stepper",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "stepper",
+        "pattern": "/stepper*/C*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab",
-      "pos_files": "",
+      "plot": "out",
+      "pos_files": "out/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "splitflappcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -510,6 +558,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -559,11 +608,29 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -610,6 +677,30 @@
     [
       "3e6df37b-d512-4c66-98b7-ac402904e438",
       "Root"
+    ],
+    [
+      "41aa6665-c17d-4d96-94b9-771ad4cd32e6",
+      "stepper1"
+    ],
+    [
+      "e8aebf6b-fa7e-4cd3-a845-2f05cc0b8c26",
+      "stepper2"
+    ],
+    [
+      "7b9885a4-3e87-4a25-adca-3c00364dc01c",
+      "stepper3"
+    ],
+    [
+      "0573b94e-2470-4362-a194-7f3ee776634f",
+      "stepper4"
+    ],
+    [
+      "516bad9f-4a37-426a-b18a-4d9dcb80dd22",
+      "stepper5"
+    ],
+    [
+      "1f9d627f-238d-4de0-8d5d-303210e43d69",
+      "stepper6"
     ]
   ],
   "text_variables": {}
