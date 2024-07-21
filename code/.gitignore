@@ -2,3 +2,5 @@ Core
 Drivers
 gen
 .mxproject
+compile_commands.json
+build
