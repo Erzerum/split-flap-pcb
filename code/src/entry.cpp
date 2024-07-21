@@ -49,13 +49,13 @@ void set_pin(pin_t *pin, bool on) {
     HAL_GPIO_WritePin(pin->bank, pin->pin, on ? GPIO_PIN_SET : GPIO_PIN_RESET);
 }
 
-
 void tick_motor(motor_t *motor) {
     motor->tick++;
-    set_pin(&motor->a, stepConfig[motor->tick][0]);
-    set_pin(&motor->b, stepConfig[motor->tick][1]);
-    set_pin(&motor->c, stepConfig[motor->tick][2]);
-    set_pin(&motor->d, stepConfig[motor->tick][3]);
+    int index = motor->tick % 4;
+    set_pin(&motor->a, stepConfig[index][0]);
+    set_pin(&motor->b, stepConfig[index][1]);
+    set_pin(&motor->c, stepConfig[index][2]);
+    set_pin(&motor->d, stepConfig[index][3]);
 }
 
 extern "C"
@@ -64,7 +64,7 @@ int main() {
     SystemClock_Config();
 
     MX_GPIO_Init();
-    MX_USART1_UART_Init();
+    // MX_USART1_UART_Init(); // we don't need this until we do comms
 
     while(1) { 
         HAL_Delay(10);
