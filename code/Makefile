@@ -1,7 +1,7 @@
 TARGET = code
 
 DEBUG = 1
-OPT = -Og
+OPT = -Og -O0
 
 BUILD = build
 
@@ -146,6 +146,9 @@ $(BUILD):
 #######################################
 clean:
 	-rm -fR $(BUILD)
+
+cleanall:
+	-rm -fR $(BUILD) Core Drivers gen
   
 bear:
 	make -f Makefile clean
