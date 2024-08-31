@@ -3797,7 +3797,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23922"
+		(property "LCSC" "C62514"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9169,7 +9169,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U8"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "136815a4-f76a-42a0-b2c1-75cd72370085")
@@ -9181,7 +9181,7 @@
 			)
 		)
 		(property "Value" "LDO"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "2a229230-a0ad-4344-9fc9-aff3203e83af")
 			(effects
@@ -9391,7 +9391,7 @@
 			(uuid "1d315e37-089a-48be-8ff9-18d4df93607c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a72b9f23-8387-4e7f-acd1-d8bdfd2f095b")
 			(effects
