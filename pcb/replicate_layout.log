@@ -1,233 +1,84 @@
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, May 10 2024, 05:24:12) [MSC v.1939 64 bit (AMD64)]'
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.3
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001D9BD75F2E0>
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with J8 as a reference
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'J8'
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.12.5 (main, Aug  9 2024, 08:20:41) [GCC 14.2.1 20240805]'
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.4
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x765e221f4170>
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with J2 as a reference
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'J2'
 Located on: ['stepper1']
 With filenames: ['driver.kicad_sch']
 With sheet_id:['stepper1']
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('J6', ['stepper4']), ('J1', ['stepper2']), ('J13', ['stepper6']), ('J9', ['stepper5']), ('J8', ['stepper1']), ('J3', ['stepper3'])]
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'stepper1', file:'driver.kicad_sch'
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['stepper1']
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3788, 116)
-07-13 23:05:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3349, 116)
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'stepper1', file:'driver.kicad_sch'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('J2', ['stepper1']), ('J8', ['stepper4']), ('J14', ['stepper6']), ('J6', ['stepper3']), ('J11', ['stepper5']), ('J5', ['stepper2'])]
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'stepper1', file:'driver.kicad_sch'
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['stepper1']
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1466, 61)
+08-30 23:16:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1027, 61)
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'stepper1', file:'driver.kicad_sch'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['stepper2'], ['stepper3'], ['stepper4'], ['stepper5'], ['stepper6']]
 on level: ['stepper1']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-07-13 23:05:59 root 332:updating GUI message: 'Preparing for replication'
-07-13 23:05:59 root 337:updating GUI with: 0
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
-07-13 23:05:59 root 332:updating GUI message: 'Replicating footprints'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 861:Replicating footprints
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['stepper2']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e4f8517c-c03a-46fa-ba36-3ec00e99c50d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:37de96c0-771b-4b7e-a849-33d773562d66
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:92816122-6ee5-4730-ae31-571220553b0c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b9ae7a9d-c220-4e2a-9671-bf27893ca93f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:74703165-84d6-4b2b-82f6-16dc0c2388b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6d533151-2c05-4d15-887c-0a2c4c093ba3
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a07cf537-f348-4f64-9cff-57b81cfbb372
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3448d9d7-8038-46b0-9e9f-22f41fad63cc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4c1fedc-17d5-4e09-9176-3aae3d9a647a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:138a0bb0-9b7c-4a24-bd44-ab175a587d94
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:939d45db-2df0-4f69-82e8-a34dd288170d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a240d8b6-05a0-47b6-b738-26c8d5ddb552
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d5fc8e8-9db5-49d3-afed-8f72952f3ab8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6291a380-35a5-49fc-895c-b1ccd381a294
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:849929ad-4e9c-4a02-9a98-da86578480ca
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0ebe66cf-1ba1-4a5c-ae6e-03292a69a517
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:85197c32-66f4-42fa-8c6b-2e3931d8435d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3769199a-36b8-4c9d-8163-f583ad61bee5
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:03b65cf8-ca98-491f-9992-9a2fd4242fbc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:703de7a4-7ef0-4406-831d-27f09d68ba19
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:331d3b05-56bd-46ad-ad03-49985aa95d32
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0c864e77-1831-4fe3-ba1e-ec27d277b521
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d7d0f80b-9fb8-452e-93ca-ee609297e912
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:564a4a32-ee42-42c9-be17-08034432a128
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ab664bd9-a0b3-4832-a23f-67807144489e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:702c1f81-cae2-4635-a5c1-7a1edd7dc335
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8885885a-dde1-4a70-ad43-e9de1ab7ab93
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b28c7c1b-7a6e-4081-9578-1c2598725cbe
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:da720b8e-8c03-4924-9fe8-d453e1faef78
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b0f45036-4091-4482-9d63-7a934c95e8ff
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['stepper3']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e4f8517c-c03a-46fa-ba36-3ec00e99c50d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:211b10cd-503d-40a3-b899-729ff7b22fd0
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:92816122-6ee5-4730-ae31-571220553b0c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:31ca9a40-0b18-432c-a6f2-3bb18bfce845
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:74703165-84d6-4b2b-82f6-16dc0c2388b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:72ee045e-d027-4709-a046-4d345c7b156e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a07cf537-f348-4f64-9cff-57b81cfbb372
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f18c0f88-788f-4bf3-b3ca-be4dfbbaf9e2
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4c1fedc-17d5-4e09-9176-3aae3d9a647a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:16a51910-c2ca-40a1-a87e-51fa2fb7c5f1
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:939d45db-2df0-4f69-82e8-a34dd288170d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:20f3b0aa-a8fd-4ca9-a64d-c984bfddf1cf
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d5fc8e8-9db5-49d3-afed-8f72952f3ab8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:798e81dd-cfdd-4843-b4ec-7222e9220d1d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:849929ad-4e9c-4a02-9a98-da86578480ca
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f70393ca-a50a-4e4c-9ada-493c84c23501
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:85197c32-66f4-42fa-8c6b-2e3931d8435d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c86f37f2-baf7-4426-ba14-9c6b7b9f7c1b
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:03b65cf8-ca98-491f-9992-9a2fd4242fbc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:74e08cf9-f583-423b-86dc-cabbfa1de84f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:331d3b05-56bd-46ad-ad03-49985aa95d32
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cfdfb296-5ce5-450a-abdd-a12b02aa3f62
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d7d0f80b-9fb8-452e-93ca-ee609297e912
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:dd9c8e6b-8b7d-4812-a2db-ef5a0fdfdc77
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ab664bd9-a0b3-4832-a23f-67807144489e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:36f1f738-6248-433d-b37c-791119373d7a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8885885a-dde1-4a70-ad43-e9de1ab7ab93
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f7a57f2d-9354-4859-bbb3-1ab84100cb4b
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:da720b8e-8c03-4924-9fe8-d453e1faef78
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7243df05-b8a7-4abe-83dc-45dbe21e713c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['stepper4']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e4f8517c-c03a-46fa-ba36-3ec00e99c50d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a11d2354-0d3b-4873-a939-e83de957cdf7
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:92816122-6ee5-4730-ae31-571220553b0c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4b0083d5-a424-4666-b04e-a4cb2eeeab3f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:74703165-84d6-4b2b-82f6-16dc0c2388b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9693cabd-ff54-434d-bc85-16210f07a498
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a07cf537-f348-4f64-9cff-57b81cfbb372
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7e365d80-d743-4427-a917-ff22e73289a9
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4c1fedc-17d5-4e09-9176-3aae3d9a647a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4faedfe6-601d-42be-8d6d-882cec8d5ef2
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:939d45db-2df0-4f69-82e8-a34dd288170d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3ff56834-db1f-4b69-b50f-89ffe71b962c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d5fc8e8-9db5-49d3-afed-8f72952f3ab8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:11ba0562-cfb8-4938-8189-4b6064f3f081
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:849929ad-4e9c-4a02-9a98-da86578480ca
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b90532e5-f9bd-4bfe-b967-79674606406d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:85197c32-66f4-42fa-8c6b-2e3931d8435d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1f25cf0c-ee5b-445c-984b-2a07d6b2ac9f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:03b65cf8-ca98-491f-9992-9a2fd4242fbc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:71a50dfd-7536-4c18-a5de-ee88458eb5d8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:331d3b05-56bd-46ad-ad03-49985aa95d32
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:351df879-e207-4577-a28d-f0e9dc7d1e29
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d7d0f80b-9fb8-452e-93ca-ee609297e912
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9f18383a-42f6-438d-ab0a-24d0d019a381
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ab664bd9-a0b3-4832-a23f-67807144489e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f0b3d836-3893-4f28-89c8-16bca4095312
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8885885a-dde1-4a70-ad43-e9de1ab7ab93
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b47d0918-5245-402c-af3a-1148b576faec
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:da720b8e-8c03-4924-9fe8-d453e1faef78
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8d71433c-8420-4c13-943f-92cfe72e0f75
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['stepper5']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e4f8517c-c03a-46fa-ba36-3ec00e99c50d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:125e015f-201e-42b3-bc7e-611a3a914f9f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:92816122-6ee5-4730-ae31-571220553b0c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8428bc43-888d-42aa-b64f-bad3cd239fb8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:74703165-84d6-4b2b-82f6-16dc0c2388b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6711579a-0dd2-416c-b32f-db487e58f43a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a07cf537-f348-4f64-9cff-57b81cfbb372
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:45df6d4c-06cf-443a-88bc-8d8869bf400d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4c1fedc-17d5-4e09-9176-3aae3d9a647a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7aaba157-d739-493a-8a5c-f626def9b672
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:939d45db-2df0-4f69-82e8-a34dd288170d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e6158b5c-c4bb-487d-96c4-6b4ecf6bcb25
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d5fc8e8-9db5-49d3-afed-8f72952f3ab8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ce81e256-dbee-40d9-9dd0-309330263b36
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:849929ad-4e9c-4a02-9a98-da86578480ca
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f2027526-bb7f-4041-94de-2c994f92453b
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:85197c32-66f4-42fa-8c6b-2e3931d8435d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b1a5ada6-cd08-4cb4-a2a3-9e2de949f95b
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:03b65cf8-ca98-491f-9992-9a2fd4242fbc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:38ca1b03-a546-4ae7-83ce-b5bd6f46a4d0
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:331d3b05-56bd-46ad-ad03-49985aa95d32
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ee9b6974-a1a0-436c-80ac-b1c4fd39a5d4
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d7d0f80b-9fb8-452e-93ca-ee609297e912
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6d150ac7-6593-4990-a6d6-14c7b631dab3
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ab664bd9-a0b3-4832-a23f-67807144489e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e270b8cc-5488-49cd-b46f-c666dd87428e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8885885a-dde1-4a70-ad43-e9de1ab7ab93
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5db9cc0c-3e79-4762-83e3-172658f847b3
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:da720b8e-8c03-4924-9fe8-d453e1faef78
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5c79f668-9400-4360-877b-e63d36d685ab
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['stepper6']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e4f8517c-c03a-46fa-ba36-3ec00e99c50d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:90cc4df7-e9ac-49a0-86e1-7bf6b2696ea6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:92816122-6ee5-4730-ae31-571220553b0c
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:be87a61a-5865-441c-938b-c01943a1670d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:74703165-84d6-4b2b-82f6-16dc0c2388b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a6fb888f-b208-45b8-aed5-b76c03fb86b6
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a07cf537-f348-4f64-9cff-57b81cfbb372
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:11a1de27-1c8f-4e03-980d-d8d9d4d36872
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4c1fedc-17d5-4e09-9176-3aae3d9a647a
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f05686ea-5f9e-4517-826c-f2e669938fec
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:939d45db-2df0-4f69-82e8-a34dd288170d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:09b3a406-11d9-4638-9a19-1cf42fb9c322
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d5fc8e8-9db5-49d3-afed-8f72952f3ab8
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:26f0cdbd-58aa-48cb-91f6-65932b3c1591
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:849929ad-4e9c-4a02-9a98-da86578480ca
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7e6d86cc-4df3-48cc-ab38-7762118b3483
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:85197c32-66f4-42fa-8c6b-2e3931d8435d
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:38b1a5ea-32bf-4427-a6d4-412bf593acbb
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:03b65cf8-ca98-491f-9992-9a2fd4242fbc
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:29cf358a-1d96-4f8b-8201-8b41e5521d8f
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:331d3b05-56bd-46ad-ad03-49985aa95d32
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:720a1113-0ac3-4dab-ab19-8682bb57b0e2
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d7d0f80b-9fb8-452e-93ca-ee609297e912
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c309f069-a023-4dd5-b8e8-8567226c8bee
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ab664bd9-a0b3-4832-a23f-67807144489e
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:68354200-7e6b-4105-a0c0-c9fc2eac33f5
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8885885a-dde1-4a70-ad43-e9de1ab7ab93
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d04cfd7f-b473-48ad-baa1-653bf418e6e5
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:da720b8e-8c03-4924-9fe8-d453e1faef78
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:465daefd-37c4-4873-9713-dfb8537b2b11
-07-13 23:05:59 root 332:updating GUI message: 'Replicating tracks'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating tracks
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['stepper2']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper2'] :[('/stepper1/IN_3', '/stepper2/IN_3'), ('/stepper1/C3', '/stepper2/C3'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U2-O7-Pad10)'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U2-I5-Pad5)'), ('/stepper1/IN_4', '/stepper2/IN_4'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/stepper1/OUT_HALL', '/stepper2/OUT_HALL'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U2-I6-Pad6)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U2-I7-Pad7)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U2-O5-Pad12)'), ('+12V', '+12V'), ('/stepper1/C4', '/stepper2/C4'), ('', ''), ('/stepper1/IN_1', '/stepper2/IN_1'), ('/stepper1/C2', '/stepper2/C2'), ('/stepper1/C1', '/stepper2/C1'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U2-O6-Pad11)'), ('/stepper1/IN_2', '/stepper2/IN_2')]
-07-13 23:05:59 root 337:updating GUI with: 0
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['stepper3']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper3'] :[('/stepper1/IN_4', '/stepper3/IN_4'), ('/stepper1/OUT_HALL', '/stepper3/OUT_HALL'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U3-I7-Pad7)'), ('GND', 'GND'), ('/stepper1/C4', '/stepper3/C4'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U3-I6-Pad6)'), ('/stepper1/IN_2', '/stepper3/IN_2'), ('/stepper1/C2', '/stepper3/C2'), ('+3V3', '+3V3'), ('/stepper1/IN_1', '/stepper3/IN_1'), ('/stepper1/C1', '/stepper3/C1'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U3-I5-Pad5)'), ('/stepper1/C3', '/stepper3/C3'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U3-O7-Pad10)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U3-O5-Pad12)'), ('+12V', '+12V'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U3-O6-Pad11)'), ('', ''), ('/stepper1/IN_3', '/stepper3/IN_3')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['stepper4']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper4'] :[('/stepper1/C1', '/stepper4/C1'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U4-O7-Pad10)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U4-I7-Pad7)'), ('GND', 'GND'), ('/stepper1/OUT_HALL', '/stepper4/OUT_HALL'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U4-I5-Pad5)'), ('+3V3', '+3V3'), ('/stepper1/IN_2', '/stepper4/IN_2'), ('/stepper1/IN_1', '/stepper4/IN_1'), ('/stepper1/IN_4', '/stepper4/IN_4'), ('/stepper1/C4', '/stepper4/C4'), ('/stepper1/C2', '/stepper4/C2'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U4-I6-Pad6)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U4-O6-Pad11)'), ('/stepper1/C3', '/stepper4/C3'), ('+12V', '+12V'), ('', ''), ('/stepper1/IN_3', '/stepper4/IN_3'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U4-O5-Pad12)')]
-07-13 23:05:59 root 337:updating GUI with: 40
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['stepper5']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper5'] :[('/stepper1/IN_3', '/stepper5/IN_3'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U5-O6-Pad11)'), ('GND', 'GND'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U5-I7-Pad7)'), ('+3V3', '+3V3'), ('/stepper1/C4', '/stepper5/C4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U5-O5-Pad12)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U5-I6-Pad6)'), ('/stepper1/C2', '/stepper5/C2'), ('/stepper1/IN_2', '/stepper5/IN_2'), ('+12V', '+12V'), ('/stepper1/OUT_HALL', '/stepper5/OUT_HALL'), ('', ''), ('/stepper1/IN_1', '/stepper5/IN_1'), ('/stepper1/C1', '/stepper5/C1'), ('/stepper1/C3', '/stepper5/C3'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U5-I5-Pad5)'), ('/stepper1/IN_4', '/stepper5/IN_4'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U5-O7-Pad10)')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['stepper6']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper6'] :[('unconnected-(U1-O7-Pad10)', 'unconnected-(U6-O7-Pad10)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U6-I6-Pad6)'), ('/stepper1/C1', '/stepper6/C1'), ('GND', 'GND'), ('/stepper1/C3', '/stepper6/C3'), ('/stepper1/IN_3', '/stepper6/IN_3'), ('+3V3', '+3V3'), ('/stepper1/IN_2', '/stepper6/IN_2'), ('/stepper1/IN_1', '/stepper6/IN_1'), ('/stepper1/OUT_HALL', '/stepper6/OUT_HALL'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U6-I5-Pad5)'), ('/stepper1/C4', '/stepper6/C4'), ('/stepper1/IN_4', '/stepper6/IN_4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U6-O5-Pad12)'), ('+12V', '+12V'), ('', ''), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U6-I7-Pad7)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U6-O6-Pad11)'), ('/stepper1/C2', '/stepper6/C2')]
-07-13 23:05:59 root 332:updating GUI message: 'Replicating zones'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1079:Replicating zones
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['stepper2']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper2'] :[('/stepper1/IN_3', '/stepper2/IN_3'), ('/stepper1/C3', '/stepper2/C3'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U2-O7-Pad10)'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U2-I5-Pad5)'), ('/stepper1/IN_4', '/stepper2/IN_4'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/stepper1/OUT_HALL', '/stepper2/OUT_HALL'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U2-I6-Pad6)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U2-I7-Pad7)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U2-O5-Pad12)'), ('+12V', '+12V'), ('/stepper1/C4', '/stepper2/C4'), ('', ''), ('/stepper1/IN_1', '/stepper2/IN_1'), ('/stepper1/C2', '/stepper2/C2'), ('/stepper1/C1', '/stepper2/C1'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U2-O6-Pad11)'), ('/stepper1/IN_2', '/stepper2/IN_2')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['stepper3']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper3'] :[('/stepper1/IN_4', '/stepper3/IN_4'), ('/stepper1/OUT_HALL', '/stepper3/OUT_HALL'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U3-I7-Pad7)'), ('GND', 'GND'), ('/stepper1/C4', '/stepper3/C4'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U3-I6-Pad6)'), ('/stepper1/IN_2', '/stepper3/IN_2'), ('/stepper1/C2', '/stepper3/C2'), ('+3V3', '+3V3'), ('/stepper1/IN_1', '/stepper3/IN_1'), ('/stepper1/C1', '/stepper3/C1'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U3-I5-Pad5)'), ('/stepper1/C3', '/stepper3/C3'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U3-O7-Pad10)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U3-O5-Pad12)'), ('+12V', '+12V'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U3-O6-Pad11)'), ('', ''), ('/stepper1/IN_3', '/stepper3/IN_3')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['stepper4']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper4'] :[('/stepper1/C1', '/stepper4/C1'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U4-O7-Pad10)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U4-I7-Pad7)'), ('GND', 'GND'), ('/stepper1/OUT_HALL', '/stepper4/OUT_HALL'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U4-I5-Pad5)'), ('+3V3', '+3V3'), ('/stepper1/IN_2', '/stepper4/IN_2'), ('/stepper1/IN_1', '/stepper4/IN_1'), ('/stepper1/IN_4', '/stepper4/IN_4'), ('/stepper1/C4', '/stepper4/C4'), ('/stepper1/C2', '/stepper4/C2'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U4-I6-Pad6)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U4-O6-Pad11)'), ('/stepper1/C3', '/stepper4/C3'), ('+12V', '+12V'), ('', ''), ('/stepper1/IN_3', '/stepper4/IN_3'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U4-O5-Pad12)')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['stepper5']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper5'] :[('/stepper1/IN_3', '/stepper5/IN_3'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U5-O6-Pad11)'), ('GND', 'GND'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U5-I7-Pad7)'), ('+3V3', '+3V3'), ('/stepper1/C4', '/stepper5/C4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U5-O5-Pad12)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U5-I6-Pad6)'), ('/stepper1/C2', '/stepper5/C2'), ('/stepper1/IN_2', '/stepper5/IN_2'), ('+12V', '+12V'), ('/stepper1/OUT_HALL', '/stepper5/OUT_HALL'), ('', ''), ('/stepper1/IN_1', '/stepper5/IN_1'), ('/stepper1/C1', '/stepper5/C1'), ('/stepper1/C3', '/stepper5/C3'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U5-I5-Pad5)'), ('/stepper1/IN_4', '/stepper5/IN_4'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U5-O7-Pad10)')]
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['stepper6']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['stepper6'] :[('unconnected-(U1-O7-Pad10)', 'unconnected-(U6-O7-Pad10)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U6-I6-Pad6)'), ('/stepper1/C1', '/stepper6/C1'), ('GND', 'GND'), ('/stepper1/C3', '/stepper6/C3'), ('/stepper1/IN_3', '/stepper6/IN_3'), ('+3V3', '+3V3'), ('/stepper1/IN_2', '/stepper6/IN_2'), ('/stepper1/IN_1', '/stepper6/IN_1'), ('/stepper1/OUT_HALL', '/stepper6/OUT_HALL'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U6-I5-Pad5)'), ('/stepper1/C4', '/stepper6/C4'), ('/stepper1/IN_4', '/stepper6/IN_4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U6-O5-Pad12)'), ('+12V', '+12V'), ('', ''), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U6-I7-Pad7)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U6-O6-Pad11)'), ('/stepper1/C2', '/stepper6/C2')]
-07-13 23:05:59 root 332:updating GUI message: 'Replicating text'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1168:Replicating text
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['stepper2']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['stepper3']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['stepper4']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['stepper5']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['stepper6']
-07-13 23:05:59 root 332:updating GUI message: 'Replicating drawings'
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1219:Replicating drawings
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['stepper2']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['stepper3']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['stepper4']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['stepper5']
-07-13 23:05:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['stepper6']
-07-13 23:06:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+08-30 23:16:52 root 332:updating GUI message: 'Preparing for replication'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+08-30 23:16:52 root 337:updating GUI with: 0
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+08-30 23:16:52 root 332:updating GUI message: 'Replicating footprints'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['stepper2']
+08-30 23:16:52 root 337:updating GUI with: 17
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['stepper3']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['stepper4']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['stepper5']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['stepper6']
+08-30 23:16:52 root 332:updating GUI message: 'Replicating tracks'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+08-30 23:16:52 root 337:updating GUI with: 0
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['stepper2']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper2'] :[('/stepper1/C3', '/stepper2/C3'), ('/stepper1/C4', '/stepper2/C4'), ('/stepper1/C2', '/stepper2/C2'), ('Net-(J2-Pin_3)', 'Net-(J5-Pin_3)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U2-I7-Pad7)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U2-O7-Pad10)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U2-I6-Pad6)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U2-O5-Pad12)'), ('/stepper1/C1', '/stepper2/C1'), ('/1_3', '/2_3'), ('/1_1', '/2_1'), ('+12V', '+12V'), ('', ''), ('+5V', '+5V'), ('/1_2', '/2_2'), ('GND', 'GND'), ('/1_H', '/2_H'), ('/1_4', '/2_4'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U2-O6-Pad11)'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U2-I5-Pad5)')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['stepper3']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper3'] :[('/stepper1/C3', '/stepper3/C3'), ('/1_4', '/3_4'), ('Net-(J2-Pin_3)', 'Net-(J6-Pin_3)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U3-O5-Pad12)'), ('/stepper1/C2', '/stepper3/C2'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U3-I5-Pad5)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U3-O6-Pad11)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U3-I7-Pad7)'), ('/stepper1/C1', '/stepper3/C1'), ('/stepper1/C4', '/stepper3/C4'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U3-I6-Pad6)'), ('+12V', '+12V'), ('/1_3', '/3_3'), ('/1_H', '/3_H'), ('', ''), ('+5V', '+5V'), ('/1_1', '/3_1'), ('/1_2', '/3_2'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U3-O7-Pad10)'), ('GND', 'GND')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['stepper4']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper4'] :[('/stepper1/C2', '/stepper4/C2'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U5-O7-Pad10)'), ('/1_2', '/4_2'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U5-I5-Pad5)'), ('/1_4', '/4_4'), ('Net-(J2-Pin_3)', 'Net-(J8-Pin_3)'), ('/1_1', '/4_1'), ('/1_3', '/4_3'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U5-O6-Pad11)'), ('/stepper1/C1', '/stepper4/C1'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U5-O5-Pad12)'), ('+12V', '+12V'), ('/1_H', '/4_H'), ('', ''), ('/stepper1/C3', '/stepper4/C3'), ('/stepper1/C4', '/stepper4/C4'), ('+5V', '+5V'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U5-I7-Pad7)'), ('GND', 'GND'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U5-I6-Pad6)')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['stepper5']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper5'] :[('unconnected-(U1-I6-Pad6)', 'unconnected-(U6-I6-Pad6)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U6-O7-Pad10)'), ('/stepper1/C3', '/stepper5/C3'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U6-I7-Pad7)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U6-O6-Pad11)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U6-O5-Pad12)'), ('/1_4', '/5_4'), ('/1_H', '/5_H'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U6-I5-Pad5)'), ('Net-(J2-Pin_3)', 'Net-(J11-Pin_3)'), ('/stepper1/C4', '/stepper5/C4'), ('+12V', '+12V'), ('/1_3', '/5_3'), ('/stepper1/C2', '/stepper5/C2'), ('/stepper1/C1', '/stepper5/C1'), ('', ''), ('+5V', '+5V'), ('/1_2', '/5_2'), ('GND', 'GND'), ('/1_1', '/5_1')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['stepper6']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper6'] :[('/stepper1/C4', '/stepper6/C4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U7-O5-Pad12)'), ('/1_1', '/6_1'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U7-I5-Pad5)'), ('/1_4', '/6_4'), ('/1_3', '/6_3'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U7-I7-Pad7)'), ('/stepper1/C2', '/stepper6/C2'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U7-I6-Pad6)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U7-O7-Pad10)'), ('/stepper1/C1', '/stepper6/C1'), ('/1_H', '/6_H'), ('/stepper1/C3', '/stepper6/C3'), ('+12V', '+12V'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U7-O6-Pad11)'), ('', ''), ('+5V', '+5V'), ('/1_2', '/6_2'), ('GND', 'GND'), ('Net-(J2-Pin_3)', 'Net-(J14-Pin_3)')]
+08-30 23:16:52 root 332:updating GUI message: 'Replicating zones'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+08-30 23:16:52 root 337:updating GUI with: 0
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['stepper2']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper2'] :[('/stepper1/C3', '/stepper2/C3'), ('/stepper1/C4', '/stepper2/C4'), ('/stepper1/C2', '/stepper2/C2'), ('Net-(J2-Pin_3)', 'Net-(J5-Pin_3)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U2-I7-Pad7)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U2-O7-Pad10)'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U2-I6-Pad6)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U2-O5-Pad12)'), ('/stepper1/C1', '/stepper2/C1'), ('/1_3', '/2_3'), ('/1_1', '/2_1'), ('+12V', '+12V'), ('', ''), ('+5V', '+5V'), ('/1_2', '/2_2'), ('GND', 'GND'), ('/1_H', '/2_H'), ('/1_4', '/2_4'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U2-O6-Pad11)'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U2-I5-Pad5)')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['stepper3']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper3'] :[('/stepper1/C3', '/stepper3/C3'), ('/1_4', '/3_4'), ('Net-(J2-Pin_3)', 'Net-(J6-Pin_3)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U3-O5-Pad12)'), ('/stepper1/C2', '/stepper3/C2'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U3-I5-Pad5)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U3-O6-Pad11)'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U3-I7-Pad7)'), ('/stepper1/C1', '/stepper3/C1'), ('/stepper1/C4', '/stepper3/C4'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U3-I6-Pad6)'), ('+12V', '+12V'), ('/1_3', '/3_3'), ('/1_H', '/3_H'), ('', ''), ('+5V', '+5V'), ('/1_1', '/3_1'), ('/1_2', '/3_2'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U3-O7-Pad10)'), ('GND', 'GND')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['stepper4']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper4'] :[('/stepper1/C2', '/stepper4/C2'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U5-O7-Pad10)'), ('/1_2', '/4_2'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U5-I5-Pad5)'), ('/1_4', '/4_4'), ('Net-(J2-Pin_3)', 'Net-(J8-Pin_3)'), ('/1_1', '/4_1'), ('/1_3', '/4_3'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U5-O6-Pad11)'), ('/stepper1/C1', '/stepper4/C1'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U5-O5-Pad12)'), ('+12V', '+12V'), ('/1_H', '/4_H'), ('', ''), ('/stepper1/C3', '/stepper4/C3'), ('/stepper1/C4', '/stepper4/C4'), ('+5V', '+5V'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U5-I7-Pad7)'), ('GND', 'GND'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U5-I6-Pad6)')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['stepper5']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper5'] :[('unconnected-(U1-I6-Pad6)', 'unconnected-(U6-I6-Pad6)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U6-O7-Pad10)'), ('/stepper1/C3', '/stepper5/C3'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U6-I7-Pad7)'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U6-O6-Pad11)'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U6-O5-Pad12)'), ('/1_4', '/5_4'), ('/1_H', '/5_H'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U6-I5-Pad5)'), ('Net-(J2-Pin_3)', 'Net-(J11-Pin_3)'), ('/stepper1/C4', '/stepper5/C4'), ('+12V', '+12V'), ('/1_3', '/5_3'), ('/stepper1/C2', '/stepper5/C2'), ('/stepper1/C1', '/stepper5/C1'), ('', ''), ('+5V', '+5V'), ('/1_2', '/5_2'), ('GND', 'GND'), ('/1_1', '/5_1')]
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['stepper6']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['stepper6'] :[('/stepper1/C4', '/stepper6/C4'), ('unconnected-(U1-O5-Pad12)', 'unconnected-(U7-O5-Pad12)'), ('/1_1', '/6_1'), ('unconnected-(U1-I5-Pad5)', 'unconnected-(U7-I5-Pad5)'), ('/1_4', '/6_4'), ('/1_3', '/6_3'), ('unconnected-(U1-I7-Pad7)', 'unconnected-(U7-I7-Pad7)'), ('/stepper1/C2', '/stepper6/C2'), ('unconnected-(U1-I6-Pad6)', 'unconnected-(U7-I6-Pad6)'), ('unconnected-(U1-O7-Pad10)', 'unconnected-(U7-O7-Pad10)'), ('/stepper1/C1', '/stepper6/C1'), ('/1_H', '/6_H'), ('/stepper1/C3', '/stepper6/C3'), ('+12V', '+12V'), ('unconnected-(U1-O6-Pad11)', 'unconnected-(U7-O6-Pad11)'), ('', ''), ('+5V', '+5V'), ('/1_2', '/6_2'), ('GND', 'GND'), ('Net-(J2-Pin_3)', 'Net-(J14-Pin_3)')]
+08-30 23:16:52 root 332:updating GUI message: 'Replicating text'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['stepper2']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['stepper3']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['stepper4']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['stepper5']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['stepper6']
+08-30 23:16:52 root 332:updating GUI message: 'Replicating drawings'
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['stepper2']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['stepper3']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['stepper4']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['stepper5']
+08-30 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['stepper6']
+08-30 23:16:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
